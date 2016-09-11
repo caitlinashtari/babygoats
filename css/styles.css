@@ -14,3 +14,25 @@
 .purple-background {
   background-color: purple;
 }
+
+.green-background {
+  background-color: green;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.btn-custom {
+  background-color: purple;
+  color: white;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active {
+  background-color: purple;
+  border-color: purple;
+  color: white;
+}
