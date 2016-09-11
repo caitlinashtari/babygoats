@@ -36,3 +36,13 @@
   border-color: purple;
   color: white;
 }
+
+.margin-border {
+  border-style: dotted;
+}
+
+.margin-border:hover {
+  color: white;
+  background-color: orange;
+
+}

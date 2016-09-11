@@ -18,4 +18,10 @@ $(function() {
     $("body").removeClass();
     $("body").addClass("white-background");
   });
+
+  $("p").click(function(){
+    $("p").addClass("margin-border");
+  });
+
+
 });
