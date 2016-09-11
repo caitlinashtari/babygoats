@@ -1,6 +1,6 @@
-$ (function)(){
+$(function() {
   $(".clickable").click(function() {
-    $(".img-showing").toggle();
-    $(".img-hidden").toggle();
+    $(".initially-showing").fadeToggle();
+    $(".initially-hidden").fadeToggle();
   });
 });
